@@ -22,7 +22,7 @@ header {
 }
 
 .search-form-input {
-  background-color: #EFF4ED;
+  background-color: #eff4ed;
   border: none;
   border-radius: 6px;
   width: 80%;
@@ -63,7 +63,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #47714F;
+  color: #47714f;
 }
 
 .weather-app-temperature-container {
@@ -84,6 +84,40 @@ main {
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.weather-forecast-date {
+  text-align: center;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.weather-forecast-icon {
+  font-size: 38px;
+
+  height: 88px;
+  width: 88px;
+  display: block;
+  margin: 0 auto;
+}
+.weather-forecast-temperatures {
+  text-align: center;
+  color: #47714f;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
 }
 
 footer {
